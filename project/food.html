@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+    <link rel="stylesheet" href="food.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navi" >
+      <div class="new">
+      
+        <h1 style="font-size: 80px; ">Foodicious</h1>
+        <img src="https://as1.ftcdn.net/v2/jpg/03/70/51/28/1000_F_370512888_T4a2z4Dvy63IFkyiRi1mB6THwFCmUAEn.jpg" class="img">
+    </div>
+    <nav class="navbar navbar-expand-lg custom-navbar" style="position: sticky; top: 0%; z-index: 1;" id="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Delicious</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Offers</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cusines
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Indian</a></li>
+                  <li><a class="dropdown-item" href="#">Chinese</a></li>
+                  <li><a class="dropdown-item" href="#">Italian</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="false">Help</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <center>
+        <div class="container" id="id">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 mb-4 mt-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h1>Indian</h1>
+                            <img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347425/india-food-dal-tadka/india-food-dal-tadka-1120x732.jpg"
+                                class="img-fluid mb-3" style="width: 500px; height: 300px;" alt="Image 1"  id="id-img1">
+                                <button class=" btn btn-danger" id="btn1" ><a href="indian.html" style="text-decoration: none; color: white;">Order now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-12 col-lg-4 mb-4 mt-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h1>Chinese</h1>
+                            <img src="https://i.insider.com/5c0192d1de34c43da26049d4?width=700"
+                                class="img-fluid mb-3" style="width: 500px; height: 300px;" alt="Image 2"  id="id-img2">
+                                <button class=" btn btn-danger" id="btn2"><a href="chinese.html" style="text-decoration: none; color: white;">Order now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-12 col-lg-4 mb-4 mt-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h1>Italian</h1>
+                            <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/09/1280px-Lasagna_with_salad_May_2011.jpg"
+                                class="img-fluid mb-3" style="width: 500px; height: 300px;" alt="Image 3"  id="id-img3">
+                                <button class=" btn btn-danger" id="btn3">Order now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://cdn.siasat.com/wp-content/uploads/2020/02/Biryani-1.jpg" class="d-block w-100" alt="..." id="cross2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Biryani</h5>
+                <p>A symphony of aromatic spices and tender meat, a feast for the senses!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://1.bp.blogspot.com/-iLcRjzlsbbM/X2jkz8vwBFI/AAAAAAAAYyk/PXixYAMLH0AKoo7sRdPpInU4hJXGIEeBQCLcBGAsYHQ/s2048/butter%2Bchicken.JPG" class="d-block w-100" id="cross1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Butter Chicken</h5>
+                <p> A creamy, flavorful indulgence where tender chicken is bathed in a rich, buttery tomato sauce!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://flawlessfood.co.uk/wp-content/uploads/2021/03/Tandoori-Chicken-Tikka-Kebab-519.jpg" class="d-block w-100" id="cross3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Chicken tikka</h5>
+                <p> Succulent chunks of marinated chicken, grilled to perfection, bursting with smoky, spiced goodness!</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+
+
+        <div class="container" style="border-style:double; border-width:4px; padding: 0px;" id="id3" >
+          <form>
+              <h1 class="d-flex justify-content-center" style="background-color: black; color: white;">Contact us</h1>
+              <div class="t p-3" >
+                  <label for="name" class="form-label" style="font-weight: bold;">Name</label>
+                  <input type="text" class="form-control" placeholder="Enter your name">
+              </div>
+              <div class="m p-3">
+                  <label for="mail" class="form-label" style="font-weight: bold;">Email</label>
+                  <input type="email" class="form-control" placeholder="email">
+              </div>
+              <div class="p p-3">
+                  <label for="pass" class="form-label" style="font-weight: bold;">Message</label>
+                  <input type="text" class="form-control" placeholder="message">
+              </div>
+              <br>
+              <center>
+                  <button class="btn btn-success m-3" style="font-weight: bold;">Submit</button>
+              </center>
+          </form>
+      </div>
+    </main>
+<center>
+    <footer >
+        <p style="background-color: black; color:white; font-size:20px; margin-bottom: 5px; padding: 10px;">&copy; 2024 Food App. All rights reserved.</p>
+    </footer>
+    </center>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#foodList {
+    margin-top: 20px;
+}
+
+#carouselExampleCaptions{
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    height:auto;
+    width: auto;
+    padding-bottom: 3rem;
+    
+}
+
+
+.price { 
+    font-weight: bold;
+    font-size: 25px; 
+    color: green;
+}
+.h{
+    
+}
+.topic{
+    padding:5px;
+    background-color:red;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: white;
+}
+
+.container1{
+    display: grid;
+    justify-content: end;
+    margin-right:7rem;
+    
+}
+#bt{
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 25px;
+    margin-bottom: 3rem;
+}
+
+.back{
+    text-decoration: none;
+    color:white;
+}
